@@ -1,0 +1,6 @@
+15.When would you want to use a remote repository rather than keeping all your work local?
+We shud use the remote repository when we wud like to add the content into our project but from another source or we wud
+like to add content to another project whose local repository i cannot get into.
+
+
+
