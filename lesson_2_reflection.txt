@@ -1,0 +1,35 @@
+8.What happens when you initialize a repository ? what do you need to do ?
+When we initialize a repository the .git file is added to the directory which makes it a git repository.. we need to type
+the command "git init" 
+
+9.How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is an intermediate repository which takes in the files that are addded... the working directory is a set
+of files that are in the repository and repository contains the commits of diff files in the working directory.
+the staging area offers the chance of thinking about which files shud be commited together so that the commits are given
+in a logical manner..
+
+10.How can you use the staging area to make sure you have one commit per logical change?
+because in staging area u just add the files that are to be commited. so u knw which files are added and which are or is
+to be commited. the staging area prepares the files to be commited to got the repository.so u know when to commit and what
+is ur commit per logical change.
+
+11.What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+branches would be helpful when u want to make changes that are experimental.. u dont want to add to the changes in ur main
+project.. it helps keep the history organized because it is branched out of the main project commit branch and whenever
+u want to go back to ur project or commits related to that u can by using the "branch" commmand line.
+
+12.How do the diagrams help you visualize the branch structure?
+diagrams help in visualizing the branch structure in a great way.this allows us to know the way the branching works and 
+which are the non reachable branches.. and how the commits are saved. and the parents to each commit.
+
+13.What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+when we merge two branches the commits of both the branches are attached together as if they were a single branch.
+the merged one will also be a commit.this one will the commit the branch that is checked out.we represent them in the
+diagram because we need a better undertanding of the merge of two branches and then we will know which one is merged and
+which are there parents.
+
+14.What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pros:the advantage is that we dont have to look into the merging part. we just have to provide the two commits that are 
+to be merged.
+cons: when the code in the two branches are same or cannot be distinguished from. in that automatic merging causes more
+trouble than help. it causes the codes to overlap that may even break the project altogether

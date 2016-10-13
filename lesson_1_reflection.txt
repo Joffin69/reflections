@@ -1,0 +1,56 @@
+1.How did viewing a diff between two versions of a file help you see the bug that 
+was introduced?
+
+    
+It helped me a lot.. as i didnt have to look up line by line which would have been more tedious job.
+
+2.How could having easy access to the entire history of a file make you a more 
+efficient programmer in the long term?
+
+    
+It allows  us to know what are the changes made into the file.. 
+As a programmer it gives me an advantage to get the prevoius
+file and start from there rather than starting from scrath
+
+3.What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    
+Pros:We get to choose when to commit and when no to.. 
+2.We can keep a track of our commits
+Cons:1.We might not commit regular intervals
+2. We might lose our development if we loose our files that was written 
+
+
+4.Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    
+
+Git allows multiple file commits because it allows better track of the different files interrelated for the project
+this allows us to get hold of all the files within the same repository.
+
+5.How can you use the commands git log and git diff to view the history of files?
+
+Git log can be used to get list of commits of a certian file over a peroid of time and git diff allows us to know the different
+alterations made from the previous one to the new one..
+    
+
+
+6.How might using version control make you more confident to make changes that 
+could break something?
+
+    
+
+using version control i have all the version of file.. so even if i lost something in between i can revert to the old state
+and start from there
+
+
+7.Now that you have your workspace set up, what do you want to try using Git for?
+
+    
+I will use Git to save my project files and its versions.. so that i can make changes within without being afraid that
+i will break the project.. 
+
+
