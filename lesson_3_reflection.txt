@@ -3,4 +3,39 @@ We shud use the remote repository when we wud like to add the content into our p
 like to add content to another project whose local repository i cannot get into.
 
 
+16.Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote 
+repository?
+its because that git doesnt know when exactly we want to share our project in public. suppose we are wroking on something
+new in our project and its not over yet, then it will cause problem as code is not complete and will cause some errors.
 
+
+17.Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks are called the cloned versions but they are from other persons repository. we create a cloned version for ourselves
+from other persons repository and will also have a link to that persons repository and this happens within the github
+Clones are the exact copy of our repository that we obtain from our github repository to our local repository and this
+happens between github and local git.
+Branches are those that are created within the master branch for doing some experimental changes to our project that we do
+not want to include in our main project at first place. later if we want to we can add them by merging two branches together.
+We use forks when we want to make changes to project of other people for our own purposes but other will know will know that
+it was forked. We use clones when we want to make changes within our project but cant do that or its better doing it 
+within our local repository by using editors. 
+
+
+18.What is the benefit of having a copy of the last known state of the remote stored locally?
+the benefit is that we would know the exact state that was in the local repository even when we are offline. we would know
+to what end we have synced the files of the local with the remote repository.
+
+19.How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Without using github or git we would have to collaborate the files by sending them using mail or other form of communication
+which would make it more difficult bwcoz we wud have keep sending each time we want to change something. which wud be more 
+tedious without git or github.
+
+
+20.When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+we wud want to make changes in the seperate branch when we collaborate with other people and to be sure that the new
+feature is ready to be merged with the master branch.when we make changes or update in the seperate branch then they wud
+have to merged or pulled to the master branch but it is gud because we are sure that it will work and the code will not break
+but if we make changes to the master branch directly then the process wud get a lot smaller but there is a chance that
+there wud be mistakes or incompleted work and that cud break the project altogether.
+ 
